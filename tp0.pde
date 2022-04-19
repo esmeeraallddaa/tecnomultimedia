@@ -1,7 +1,14 @@
+
 void setup(){
+  
 size(600, 600);
 background(221,222,36);
 
+}
+ 
+void draw(){
+ textSize(20);
+ text("Florcita", 80, 450);
 strokeWeight(03);
 fill(155,12,98);
 circle( 290, 70, 130);
@@ -26,10 +33,6 @@ fill(155,77,12);
 rect(170,500,100,100);
 rect(145,480,150,60);
 
-
-}
- 
-void draw(){
 }
 
 
